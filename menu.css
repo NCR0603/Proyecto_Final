@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0.04%;
+}
+.encabezado{
+    background-color: rgb(5, 80, 129);
+}
+
+.encabezado nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.encabezado nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.encabezado a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(200, 200, 200);
+    padding: 12px 20px;
+    display: block;
+
+}
+
+.encabezado a:hover{
+    background-color: gainsboro;
+}
+
+.encabezado nav ul li ul{
+    position: absolute;
+}
+
+.encabezado nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.encabezado nav ul li ul{
+    display: none;
+}
+
+.encabezado nav ul li:hover > ul{
+    display: block;
+    background-color: rgb(5, 80, 129);
+}
+
+img{
+    margin-left: 300px;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu{
+    float: right;
+    margin-right: 900px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li ul{
+    padding-top: 50px;
+}
+
+.menu ul li ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu ul{
+    padding: 20px 20px;
+    position: absolute;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+.menu ul li ul{
+    display: none;
+}
+
+.menu ul li:hover > ul{
+    display: block;
+}
+
+.menu ul li ul li ul{
+        display: none;
+}
+
+
+
+
